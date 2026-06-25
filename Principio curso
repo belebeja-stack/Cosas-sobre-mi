@@ -1,0 +1,19 @@
+import random
+
+my_words = ["HI", "Python Pro", "Kodland"] 
+print(my_words[1])
+
+name = input()
+print("Hi ", name)
+
+emojis = [
+    "😀", "😃", "😄", "😁", "😆",
+    "😂", "🤣", "😊", "😍", "🥰",
+    "😎", "🤩", "🤔", "😭", "😡",
+    "👍", "👎", "👏", "🙌", "🙏",
+    "❤️", "💙", "💚", "💛", "🧡",
+    "🎉", "🎊", "🥳", "🎁", "🏆",
+    "💻", "🤖", "🎮", "🚀", "⚡",
+    "📚", "✏️", "📝", "🎓", "💡"
+]
+print(random.choice(emojis))
